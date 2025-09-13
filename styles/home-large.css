@@ -1,0 +1,47 @@
+@media screen and (min-width:750px) 
+{
+    nav
+    {
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    nav a
+    {
+        display: block;
+    }
+    #menu
+    {
+        display: none;
+    }
+    .about
+    {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .about p
+    {
+        padding-bottom: 12em;
+    }
+    .about img
+    {
+        margin-left: 25%;
+    }
+    .courses, .buttons
+    {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .buttons h3, .courses h3
+    {
+        margin: 10px;
+    }
+    .courseHeader
+    {
+        display: flex;
+        justify-content: center;
+    }
+}

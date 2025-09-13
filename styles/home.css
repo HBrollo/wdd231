@@ -1,0 +1,142 @@
+/*Header*/
+.logo
+{
+    height: 64px;
+    display: flex;
+}
+nav a
+{
+    display: none;
+}
+.show a
+{
+    display: block;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(189, 189, 189);
+    border: 1px solid black;
+    font-size: x-large;
+}
+/*Hamburger button*/
+#menu
+{
+    display:flex;
+    justify-content: flex-end;
+    color:black;
+    font-size:xxx-large;
+    text-decoration: none;
+    margin-right: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#menu::before {
+	content: "≡";
+}
+#menu.show::before {
+	content: "X";
+}
+
+/*Hover effect*/
+nav a:hover
+{
+    color: black;
+    background-color: white;
+}
+/*Beginning of main, About Sections*/
+.about h2 
+{
+    display: flex;
+    justify-content: center;
+}
+.about img
+{
+    max-height: 250px;
+    display: flex;
+    justify-self: center;
+}
+main h2
+{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+.about p
+{
+    background-color: rgb(189, 189, 189);
+    padding: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+/*Buttons and course cards*/
+.courses, .buttons
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+.buttons h3
+{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+.buttons h3:hover
+{
+    color:black;
+    background-color: rgb(189, 189, 189);
+    border: solid 1px black;
+}
+.courses h3
+{
+    background-color: rgb(189, 189, 189);
+    border: solid 1px black;
+    border-radius: 8px;
+    padding: 25px;
+    
+}
+.courses p
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.true::before
+{
+    content: "✔️";
+}
+.false::before
+{
+    content: "❌";
+}
+h3
+{
+    display: grid;
+    justify-content: center;
+}
+/*Social media images*/
+.socials
+{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/*Footer Content*/
+footer
+{
+    background-color: rgb(189, 189, 189);
+    
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
