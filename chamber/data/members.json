@@ -1,0 +1,61 @@
+{
+    "members": 
+    [
+        {
+            "name": "Mukli Alfajores",
+            "address": "Avenida 15 de Novembro, 1704 - Nova Petrópolis, RS, 95150-000",
+            "phone": 54999058807,
+            "url": "http://mukli.com.br/",
+            "image": "images/mukli.png",
+            "level": 3
+        },
+        {
+            "name": "Plátano Grill Restaurante",
+            "address": "Galeria Imigrante - Avenida 15 de Novembro, 1883 - Nova Petrópolis - RS, 95150-000",
+            "phone": 5432813266,
+            "url": "http://www.platanogrill.com.br/",
+            "image": "images/platano.png",
+            "level": 3
+        },
+        {
+            "name": "Supermercados Andreazza",
+            "address": "R. Frederico Michaelsen, 129 - Pousada da neve, Nova Petrópolis - RS, 95150-000",
+            "phone": 5432818300,
+            "url": "http://superandreazza.com.br/",
+            "image": "images/andreazza.png",
+            "level": 2
+        },
+        {
+            "name": "DLT Sports",
+            "address": "R. Frederico Michaelsen, 217 - centro, Nova Petrópolis - RS, 95150-000",
+            "phone": 54996244730,
+            "url": "https://www.instagram.com/dlt.sports/",
+            "image": "images/dlt.png",
+            "level": 1
+        },
+        {
+            "name": "Forneria da Mata",
+            "address": "Rua Emilio Raiman, 375 - Piá, Nova Petrópolis - RS, 95150-000",
+            "phone": 54999827325,
+            "url": "http://www.forneriadamata.com.br/",
+            "image": "images/forneria.jpg",
+            "level": 2
+        },
+        {
+            "name": "Mercado do Lado",
+            "address": "Av. Três de Maio, 117 - Centro, Nova Petrópolis - RS, 95150-000",
+            "phone": 54999928140,
+            "url": "https://www.instagram.com/mercadodolado",
+            "image": "images/lado.png",
+            "level": 1
+        },
+        {
+            "name": "Terraço da 15",
+            "address": "Avenida 15 de Novembro, 1860 - Nova Petrópolis, RS, 95150-000",
+            "phone": 54991900770,
+            "url": "https://terracoda15burguerebeer.saipos.com/",
+            "image": "images/terraco.png",
+            "level": 2
+        }
+    ]
+}

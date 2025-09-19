@@ -1,0 +1,107 @@
+/*Nav, header*/
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1bc51b;
+    border-bottom: solid 10px pink;
+    
+}
+
+.title img
+{
+    height: 5em;
+}
+nav a
+{
+    display: none;
+}
+.show a
+{
+    display: block;
+}
+.show
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    background-color: pink;
+}
+/*Buttons*/
+#menu
+{
+    display:flex;
+    justify-content: flex-end;
+    color:black;
+    font-size:xxx-large;
+    text-decoration: none;
+    margin-right: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#grid, #list
+{
+    display: none;
+}
+
+#menu::before {
+	content: "≡";
+}
+#menu.show::before {
+	content: "X";
+}
+
+/*main*/
+.hero
+{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    overflow-x: hidden;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+/*business cards*/
+li
+{
+    list-style: none;
+}
+.business ul
+{
+    background-color: pink;
+    border: solid 1px black;
+    border-radius: 6px;
+    border-bottom: solid 10px #1bc51b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.business ul h3
+{
+    text-decoration: underline;
+}
+.business ul img
+{
+    height: 12em;
+}
+/*footer*/
+footer
+{
+    background-color: #1bc51b;
+    border-top: solid 10px pink;
+    padding-bottom: 5px;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+}

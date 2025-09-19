@@ -8,15 +8,7 @@ nav a
 {
     display: none;
 }
-.show a
-{
-    display: block;
-    display: grid;
-    justify-content: center;
-    background-color: rgb(189, 189, 189);
-    border: 1px solid black;
-    font-size: x-large;
-}
+
 /*Hamburger button*/
 #menu
 {

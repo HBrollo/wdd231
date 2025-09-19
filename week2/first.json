@@ -1,0 +1,39 @@
+{
+    "member":
+    {
+        "family name":
+        {
+            "name": "Ignacio"
+        },
+        "move date":
+        {
+            "date": "9/14/2025"
+        },
+        "number of records":
+        {
+            "records":"4"
+        },
+        "visited?":
+        {
+            "visited": false
+        },
+        "family members":
+        [
+            {
+                "name": "James",
+                "gender": "male",
+                "birthdate": "Jan 2 1993"
+            },
+            {
+                "name": "Cynthia",
+                "gender": "female",
+                "birthdate": "Jan 3 1994"
+            },
+            {
+                "name": "Jesse",
+                "gender": "female",
+                "birthdate": "Jan 4 2025"
+            }
+        ]
+    }
+}
