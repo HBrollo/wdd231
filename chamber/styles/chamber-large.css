@@ -46,13 +46,13 @@
         margin-left: 15%;
         margin-right: 15%;
     }
-    .list ul
+    .list li
     {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    .list ul:nth-child(odd)
+    .list li:nth-child(odd)
     {
         background-color: rgb(249, 151, 184);
     }
@@ -60,7 +60,7 @@
     {
         display: none;
     }
-    .business ul
+    .business li
     {
         margin: 5px;
     }    

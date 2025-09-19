@@ -69,11 +69,11 @@ nav a
     justify-content: center;
 }
 /*business cards*/
-li
+ul
 {
     list-style: none;
 }
-.business ul
+.business li
 {
     background-color: pink;
     border: solid 1px black;
@@ -85,11 +85,11 @@ li
     align-items: center;
     
 }
-.business ul h3
+.business li h3
 {
     text-decoration: underline;
 }
-.business ul img
+.business li img
 {
     height: 12em;
 }

@@ -42,7 +42,7 @@ function createCards(cards)
 {
     
     cards.forEach(member => {
-        const section = document.createElement('ul');
+        const section = document.createElement('li');
         document.querySelector(".business").appendChild(section);
         
         const businessName = document.createElement('h3');
