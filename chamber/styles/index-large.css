@@ -34,6 +34,16 @@
         color: black;
     }
     /*Main*/
+    .events
+    {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .weather
+    {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
     #grid, #list
     {
         display: flex;

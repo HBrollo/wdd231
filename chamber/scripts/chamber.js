@@ -57,7 +57,8 @@ function createCards(cards)
         businessNumber.textContent= `Phone: ${member.phone}`;
         section.appendChild(businessNumber);
 
-        const businessUrl = document.createElement("p");
+        const businessUrl = document.createElement("a");
+        businessUrl.href = member.url;
         businessUrl.textContent = member.url;
         section.appendChild(businessUrl);
 

@@ -61,9 +61,10 @@ nav a
     justify-content: center;
     background-color: pink;
     width: 100%;
+    border-radius: 4px;
     overflow-x: hidden;
 }
-.center
+.center h2
 {
     display: flex;
     justify-content: center;
@@ -72,6 +73,60 @@ a:any-link
 {
     color: blue;
 }
+/*Call to action*/
+.action
+{
+    display: flex;
+    justify-content: center;
+}
+.action h2
+{
+    background-color: #1bc51b;
+    border-radius: 8px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border: 1px solid black;
+}
+/*Events*/
+.events
+{
+    background-color: rgb(153, 216, 255);
+    border: solid 1px black;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+.events h2, .events h3
+{
+    display: flex;
+    justify-content: center;
+}
+/*Weather*/
+.weather 
+{
+    border: solid 1px black;
+    
+    border-radius: 20px;
+    background-color: pink;
+    border-bottom: rgb(153, 216, 255) solid 12px;
+}
+.weather h2
+{
+    display: flex;
+    justify-content: center;
+}
+.display
+{
+    display: flex;
+    justify-content: center;
+}
+#description
+{
+    display: flex;
+    justify-content: center;
+}
+
 /*business cards*/
 ul
 {
