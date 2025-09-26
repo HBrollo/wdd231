@@ -78,6 +78,7 @@ a:any-link
 {
     display: flex;
     justify-content: center;
+    margin-top: -10em;
 }
 .action h2
 {
@@ -94,6 +95,7 @@ a:any-link
 {
     background-color: rgb(153, 216, 255);
     border: solid 1px black;
+    margin-top: 3em;
     margin-bottom: 1em;
     border-radius: 20px;
 }
