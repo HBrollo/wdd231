@@ -71,7 +71,7 @@ nav a
 }
 a:any-link
 {
-    color: blue;
+    color: black;
 }
 /*Call to action*/
 .action
@@ -108,10 +108,9 @@ a:any-link
 .weather 
 {
     border: solid 1px black;
-    
     border-radius: 20px;
     background-color: pink;
-    border-bottom: rgb(153, 216, 255) solid 12px;
+    border-bottom: #1bc51b solid 12px;
 }
 .weather h2
 {
@@ -128,7 +127,41 @@ a:any-link
     display: flex;
     justify-content: center;
 }
+/*Forecast*/
+.forecast
+{
+    
+    background-color: pink;
+    border-radius: 20px; 
+    border: solid 1px black;
+    border-bottom: #1bc51b solid 12px;
 
+}
+.forecast h2
+{
+    display: flex;
+    justify-content: center;
+}
+.forecastDisplay
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forecastDisplay div
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    max-width: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgb(153, 216, 255);
+    border-radius: 20px; 
+    border: solid 1px black;
+}
 /*business cards*/
 ul
 {

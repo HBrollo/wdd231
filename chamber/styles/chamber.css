@@ -17,6 +17,10 @@ nav a
 {
     display: none;
 }
+a:any-link
+{
+    color: black;
+}
 .show a
 {
     display: block;
@@ -68,10 +72,7 @@ nav a
     display: flex;
     justify-content: center;
 }
-a:any-link
-{
-    color: blue;
-}
+
 /*business cards*/
 ul
 {

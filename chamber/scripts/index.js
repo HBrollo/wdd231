@@ -12,14 +12,15 @@ const currentTemp = document.querySelector("#temperature");
 const weatherIcon = document.querySelector("#icon");
 const weatherDescription = document.querySelector("#description");
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=-29.75&lon=-51.06&appid=d06ccc2783b4ab23a8d1893eac0dc75a&units=metric';
+const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=-29.75&lon=-51.06&appid=d06ccc2783b4ab23a8d1893eac0dc75a&units=metric';
 
-apiFetch();
-async function apiFetch() {
+//Call APIs
+weatherFetch();
+async function weatherFetch() {
   try {
     const response = await fetch(weatherUrl);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
       displayResults(data);
     } else {
         throw Error(await response.text());
@@ -29,6 +30,24 @@ async function apiFetch() {
   }
 }
 
+forecastFetch();
+async function forecastFetch()
+{
+    try {
+    const response = await fetch(forecastUrl);
+    if (response.ok) {
+      const data = await response.json();
+      const forecast = data.list.filter(item => item.dt_txt.includes("12:00:00")).slice(0, 3);
+      displayForecast(forecast);
+    } else {
+        throw Error(await response.text());
+    }
+  } catch (error) {
+      console.log(error);
+  }
+}
+
+//Display Weather/forecasts
 function displayResults(data) {
   currentTemp.innerHTML = `${data.main.temp}&deg;C`;
   const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
@@ -37,7 +56,28 @@ function displayResults(data) {
   weatherIcon.setAttribute('alt', desc);
   weatherDescription.textContent = `${desc}`;
 }
+function displayForecast(forecast)
+{
+    const weatherForecast = document.querySelector(".forecastDisplay");
+    forecast.forEach(day => {
+        const dayForecast = document.createElement("div");
+        const dayTemperature = document.createElement("p");
+        let forecastIcon = document.createElement("img");
+        let forecastDescription = document.createElement("p");
 
+        dayTemperature.innerHTML = `${day.main.temp}&deg;C`;
+        const iconsrc = `https://openweathermap.org/img/w/${day.weather[0].icon}.png`;
+        let desc = day.weather[0].description;
+        forecastIcon.setAttribute('src', iconsrc);
+        forecastIcon.setAttribute('alt', desc);
+        forecastDescription.textContent = `${desc}`;
+
+        weatherForecast.append(dayForecast);
+        dayForecast.appendChild(dayTemperature);
+        dayForecast.appendChild(forecastIcon);
+        dayForecast.appendChild(forecastDescription);
+    });
+}
 
 //Fetch data for cards
 async function getCardData() {
