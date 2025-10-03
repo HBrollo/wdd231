@@ -1,0 +1,97 @@
+/*Nav, header*/
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1bc51b;
+    border-bottom: solid 10px pink;
+    
+}
+
+.title img
+{
+    height: 5em;
+}
+nav a
+{
+    display: none;
+}
+.show a
+{
+    display: block;
+}
+.show
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    background-color: pink;
+}
+/*Buttons*/
+#menu
+{
+    display:flex;
+    justify-content: flex-end;
+    color:black;
+    font-size:xxx-large;
+    text-decoration: none;
+    margin-right: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#menu::before {
+	content: "≡";
+}
+#menu.show::before {
+	content: "X";
+}
+
+/*main*/
+.hero
+{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    border-radius: 4px;
+    overflow-x: hidden;
+}
+.center h2, .center
+{
+    display: flex;
+    justify-content: center;
+}
+a:any-link
+{
+    color: black;
+}
+.return
+{
+    display: flex;
+    justify-content: center;
+}
+.return a
+{
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: x-large;
+    margin: 1em;
+}
+/*footer*/
+footer
+{
+    background-color: #1bc51b;
+    border-top: solid 10px pink;
+    padding-bottom: 5px;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+}

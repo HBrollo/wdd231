@@ -6,6 +6,9 @@ hamButton.addEventListener('click', () =>
         mainNav.classList.toggle('show');
 	    hamButton.classList.toggle('show');
     })
+
+
+
 //Weather data
 //-29°22'26.2 -51°06'28.8
 const currentTemp = document.querySelector("#temperature");

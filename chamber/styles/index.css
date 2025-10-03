@@ -80,7 +80,11 @@ a:any-link
     justify-content: center;
     margin-top: -10em;
 }
-.action h2
+.action a:hover
+{
+    background-color: pink;
+}
+.action a
 {
     background-color: #1bc51b;
     border-radius: 8px;
@@ -89,6 +93,7 @@ a:any-link
     padding-left: 5em;
     padding-right: 5em;
     border: 1px solid black;
+    font-size: xx-large;
 }
 /*Events*/
 .events

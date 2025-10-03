@@ -105,10 +105,16 @@ function CreateCourseCards(courseArray)
         totalCredits+= course.credits;
         courseName.innerHTML = `<span class=${courseStatus}>${course.number}</span>`;
         document.querySelector(".courses").appendChild(courseName)
+        courseName.addEventListener('click', () => 
+            {
+                displayCourseDetails(course);
+            })
     });
     let creditDisplay = document.createElement("p");
     creditDisplay.innerHTML = `The total credits of courses listed is ${totalCredits}.`;
     document.querySelector(".courses").appendChild(creditDisplay);
+
+
 }
 //All Button
 const allButton = document.querySelector('#all');
@@ -139,3 +145,24 @@ cseButton.addEventListener("click", () =>
             })
         CreateCourseCards(filteredCourses);
     })
+
+//Dialog
+const courseDetails = document.querySelector("#course-details");
+function displayCourseDetails (course)
+{
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+    courseDetails.showModal();
+  
+    closeModal.addEventListener("click", () => {
+        courseDetails.close();
+  });
+}

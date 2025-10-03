@@ -1,0 +1,175 @@
+/*Nav, header*/
+.title
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1bc51b;
+    border-bottom: solid 10px pink;
+    
+}
+
+.title img
+{
+    height: 5em;
+}
+nav a
+{
+    display: none;
+}
+.show a
+{
+    display: block;
+}
+.show
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    background-color: pink;
+}
+/*Buttons*/
+#menu
+{
+    display:flex;
+    justify-content: flex-end;
+    color:black;
+    font-size:xxx-large;
+    text-decoration: none;
+    margin-right: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#grid, #list
+{
+    display: none;
+}
+
+#menu::before {
+	content: "≡";
+}
+#menu.show::before {
+	content: "X";
+}
+
+/*main*/
+.hero
+{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    width: 100%;
+    border-radius: 4px;
+    overflow-x: hidden;
+}
+.center h2, .center
+{
+    display: flex;
+    justify-content: center;
+}
+a:any-link
+{
+    color: black;
+}
+/*Form*/
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+label
+{
+    font-size: x-large;
+}
+
+input, select
+{
+    width: 20em;
+    height: 2.5em;
+    border-radius: 6px;
+}
+textarea
+{
+    height: 7.5em;
+    width: 20em;
+    border-radius: 8px;
+}
+input:required
+{
+    border-bottom: red solid 6px;
+}
+input:required:valid
+{
+    border-bottom: #1bc51b solid 6px;
+}
+/*Aside*/
+aside
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.modal
+{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    padding: 2.5em;
+    padding: 2em;
+    margin-top: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid 2px black;
+    border-radius: 60px;
+    text-decoration: underline;
+}
+
+
+.modal:hover
+{
+    background-color: #1bc51b;
+}
+dialog div
+{
+    display: flex;
+    justify-content: center;
+}
+/*Dialog*/
+dialog
+{
+    font-size: large;
+    border-radius: 20px;
+}
+dialog h2
+{
+    display: flex;
+    justify-content: center;
+
+}
+dialog button
+{
+    font-size: larger;
+
+}
+/*footer*/
+footer
+{
+    background-color: #1bc51b;
+    border-top: solid 10px pink;
+    padding-bottom: 5px;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+}
