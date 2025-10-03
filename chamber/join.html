@@ -39,7 +39,7 @@
         <!--Form-->
         <h2 class="center">Join our community:</h2>
         <div class="form">
-            <form action="thankyou.html">
+            <form action="thankyou.html" method="get">
                 <label for="firstName">First Name</label>
                 <input type="text" name="firstName" id="firstName" title="firstName" placeholder="John" required>
 
@@ -50,10 +50,10 @@
                 <input type="text" name="title" id="organizationTitle" autocomplete="organization-title" placeholder="e.g. Senior Project-Manager" minlength="7" pattern="^[A-Za-z\- ]{7,}$" title="Use only letters, hyphens, and spaces (minimum 7 characters)" required>
             
                 <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" autocomplete="emailAddress" placeholder="JohnDoe@gmail.com" required> 
+                <input type="email" name="email" id="email" autocomplete="email" placeholder="JohnDoe@gmail.com" required> 
             
                 <label for="phone">Telephone Number</label>
-                <input type="tel" name="phone" id="phone" title="Phone Number" autocomplete="phoneNumber" placeholder="+(55)5555-5555" required> 
+                <input type="tel" name="phone" id="phone" title="Phone Number" autocomplete="tel" placeholder="+(55)5555-5555" required> 
 
                 <label for="organization">Organization's Name</label>
                 <input type="text" name="organization" id="organization" title="The organization's name" autocomplete="organization" required>  
