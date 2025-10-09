@@ -1,0 +1,53 @@
+{
+    "places": 
+    [
+        {
+            "name": "Labirinto Verde",
+            "address": "Avenida 15 de Novembro - Nova Petrópolis, RS, 95150-000",
+            "image": "images/labirinto.webp",
+            "description": "A fun maze located right in the center of the city."
+        },
+        {
+            "name":"Galeria do Imigrante",
+            "address":"Avenida 15 de Novembro, 1883 - centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/galeria.webp",
+            "description":"A collection of local shops showcasing the best that the city has to offer."
+        },
+        {
+            "name":"Aldeia do Imigrante",
+            "address":"Avenida 15 de Novembro, 1966 - Centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/imigrante.webp",
+            "description":"A scenic park commemorating the arrival of the founding German migrants to the city."
+        },
+        {
+            "name":"Cidade Zaandam",
+            "address":"Avenida 15 de Novembro, 1057 - Centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/zaandam.webp",
+            "description":"A Dutch themed restaurant with beautiful architecture and surroundings."
+        },
+        {
+            "name":"Ninho das Águias",
+            "address":"Av. Ninho das Águias - Ninho das Águias Ninho das Águias, Nova Petrópolis - RS, 95150-000",
+            "image":"images/ninho.webp",
+            "description":"A park located on a high mountaintop, with a scenic view of the surrounding valley."
+        },
+        {
+            "name":"Praça das Flores",
+            "address":"Avenida 15 de Novembro, 1302-1304 - Centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/praca.webp",
+            "description":"The central park of the city, featuring flowers all year round."
+        },
+        {
+            "name":"Rua Coberta",
+            "address":"R. Rui Barbosa - Centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/rua.webp",
+            "description":"A covered street next to the central park, usually hosting some sort of event."
+        },
+        {
+            "name":"Zang Dorf",
+            "address":"Zang Dorf, Avenida 15 de Novembro, 1750 - sala 13 - Centro, Nova Petrópolis - RS, 95150-000",
+            "image":"images/zang.webp",
+            "description":"A charming shopping center that features stores, restaurants and a comfortable resting spot."
+        }
+    ]
+}

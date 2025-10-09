@@ -78,93 +78,35 @@ a:any-link
 {
     color: black;
 }
-/*Form*/
+/*Message*/
+.message
+{
+    display: flex;
+    justify-content: center;
+}
+/*Cards*/
+ul
+{
+    display: grid;
+    grid-template-areas:"a";
+    margin-left: -2.5em;
 
-form
+}
+.cards li
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-left: 10%;
-}
-label
-{
-    font-size: x-large;
-}
-
-input, select
-{
-    width: 20em;
-    height: 2.5em;
-    border-radius: 6px;
-}
-textarea
-{
-    height: 7.5em;
-    width: 20em;
-    border-radius: 8px;
-}
-input:required
-{
-    border-bottom: red solid 6px;
-}
-input:required:valid
-{
-    border-bottom: #1bc51b solid 6px;
-}
-/*Aside*/
-aside
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.about
-{
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-}
-.modal
-{
-    display: flex;
-    justify-content: center;
     background-color: pink;
-    padding: 2.5em;
-    padding: 2em;
-    margin-top: 1px;
-    margin-left: 15%;
-    margin-right: 15%;
-    border: solid 2px black;
-    border-radius: 60px;
-    text-decoration: underline;
+    border: 1px black solid;
+    border-radius: 8px;
+    border-bottom: solid 10px #1bc51b;
+    
 }
-
-
-.modal:hover
+li img
 {
-    background-color: #1bc51b;
-}
-dialog div
-{
-    display: flex;
-    justify-content: center;
-}
-/*Dialog*/
-dialog
-{
-    font-size: large;
-    border-radius: 20px;
-}
-dialog h2
-{
-    display: flex;
-    justify-content: center;
-
-}
-dialog button
-{
-    font-size: larger;
-
+    max-width: 300px;
 }
 /*footer*/
 footer

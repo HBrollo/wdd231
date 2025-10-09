@@ -1,5 +1,5 @@
 /*Nav, header*/
-.title
+header
 {
     display: flex;
     justify-content: space-between;
@@ -7,6 +7,11 @@
     background-color: #1bc51b;
     border-bottom: solid 10px pink;
     
+}
+.title
+{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .title img
