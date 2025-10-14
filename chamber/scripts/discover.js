@@ -6,6 +6,7 @@ hamButton.addEventListener('click', () =>
         mainNav.classList.toggle('show');
 	    hamButton.classList.toggle('show');
     })
+    
 //Fetch data for cards
 async function init()
 {
@@ -74,9 +75,6 @@ if (!lastVisit) {
   }
 }
 
-
-
-// Check if there's a stored last visit
 
 
 

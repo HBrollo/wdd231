@@ -1,0 +1,234 @@
+/*PAGE BACKGROUND*/
+body
+{
+    background-color: #212121;
+}
+/*HEADER*/
+header
+{
+    display: flex;
+    background-color: rgb(104, 52, 15);
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title
+{
+    display: flex;
+    align-items: center;
+}
+.title img
+{
+    height: 50px;
+}
+.title h1
+{
+    margin-left: 0.5em;
+}
+
+
+/*HAMBURGER BUTTON*/
+nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;         
+    margin: 0 auto;      
+}
+#menu::before
+{
+    content: "≡";
+}
+
+#menu.show::before
+{
+    content: "X";
+}
+#menu
+{
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* WHEN MENU IS SHOWN */
+nav.show {
+    display: flex;                /* show nav */
+    justify-content: center;      /* center vertically */
+    align-items: center;          /* center horizontally */
+    order: 2;                     /* move below title/menu */
+    background-color: #CFAF7B;        
+    flex-direction: column;
+    width: 100%;
+}
+
+nav.show a {
+    display: block;
+    font-size: xx-large;
+    color: black;
+    padding: 10px;
+
+}
+
+
+/*MAIN*/
+.hero
+{
+    display: flex;
+    justify-content: center;
+    background-color: #200B02;
+    border-radius: 8px;
+}
+.hero img
+{
+    border-radius: 12px;
+}
+.welcome
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+.intro
+{
+    display: flex;
+    justify-content: center;
+    background-color: #200B02;
+    color: white;
+    padding-bottom: 50px;
+    font-size: x-large;
+    max-width: 100%;
+}
+.intro p
+{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+/*WAVES*/
+.wave0
+{
+    background-color: #200B02;
+    height: 100px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+.wave1
+{
+    background-color: #200B02;
+    height: 25px;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+}
+.wave2
+{
+    background-color: rgb(161, 82, 25);
+    height: 100px;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    margin-top: -2.5em;
+}
+.wave3
+{
+    background-color: #CFAF7B;
+    height: 100px;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    margin-top: -2.5em
+}
+/*CARDS*/
+.items
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(161, 82, 25);
+    justify-content: center;
+    padding-bottom: 10em;
+}
+
+.items h2, .food h2,.items a, .food a 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: xx-large;
+}
+.white
+{
+    color: white;
+}
+.button
+{
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+.food 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #CFAF7B;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.items img
+{
+    border-radius: 50%;
+    max-width: 100%;
+}
+.food img
+{
+    border-radius: 40%;
+    max-width: 100%;
+}
+.join
+{
+    padding: 15px;
+    background-color: #200B02;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2.5em;
+    margin-bottom: -1em;
+}
+.join h2
+{
+    color: white;
+    font-size: xx-large;
+}
+.join a
+{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-decoration: underline;
+    padding: 15px;
+    font-size: xx-large;
+    border-radius: 8px;
+}
+/*FOOTER*/
+footer
+{
+    background-color: rgb(104, 52, 15);
+    color: white;
+    margin-bottom: -0.5em;
+    padding: 3px;
+    margin-top: 1em;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+    
+}

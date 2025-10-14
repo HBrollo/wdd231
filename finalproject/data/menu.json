@@ -1,0 +1,177 @@
+{
+  "menu": [
+    {
+      "medialuna": [
+        {
+          "id": "medialuna"
+        },
+        {
+          "title": "Ham & Cheese",
+          "ingredients": [
+            "Medialuna Bread",
+            "Ham",
+            "Cheese",
+            "Honey topping"
+          ],
+          "cost": "R$18.50"
+        },
+        {
+          "title": "Salami",
+          "ingredients": [
+            "Medialuna Bread",
+            "Salami",
+            "Ham",
+            "Pickles",
+            "Chimichurri",
+            "Honey topping"
+          ],
+          "cost": "R$18.50"
+        },
+        {
+          "title": "Heart of Palm",
+          "ingredients": [
+            "Medialuna Bread",
+            "Heart of Palm",
+            "Cheese",
+            "Oregano",
+            "Honey topping"
+          ],
+          "cost": "R$18.50"
+        },
+        {
+          "title": "White Chocolate & Pistachio",
+          "ingredients": [
+            "Medialuna Bread",
+            "White chocolate pieces",
+            "Pistachio spread",
+            "Powdered sugar"
+          ],
+          "cost": "R$22.50"
+        },
+        {
+          "title": "Strawberries & Hazelnut",
+          "ingredients": [
+            "Medialuna Bread",
+            "Strawberries",
+            "Hazelnut spread",
+            "Powdered sugar"
+          ],
+          "cost": "R$18.50"
+        },
+        {
+          "title": "Strawberries & Dulce de Leche",
+          "ingredients": [
+            "Medialuna Bread",
+            "Strawberries",
+            "Dulce de Leche",
+            "Powdered sugar"
+          ],
+          "cost": "R$18.50"
+        },
+        {
+          "title": "Nuts & Dulce de Leche",
+          "ingredients": [
+            "Medialuna Bread",
+            "Nuts",
+            "Dulce de Leche",
+            "Powdered sugar"
+          ],
+          "cost": "R$18.50"
+        }
+      ]
+    },
+    {
+      "hot_chocolate": [
+        {
+          "id": "chocolate"
+        },
+        {
+          "title": "Traditional Hot Chocolate",
+          "ingredients": [
+            "180mL of creamy hot chocolate"
+          ],
+          "cost": "R$15.00"
+        },
+        {
+          "title": "Choco Rum",
+          "ingredients": [
+            "180mL of creamy hot chocolate",
+            "A small amount of rum",
+            "Whipped cream",
+            "Nuts",
+            "Special Dulce de Leche topping"
+          ],
+          "cost": "R$19.00"
+        },
+        {
+          "title": "Choco Alfajor",
+          "ingredients": [
+            "180mL of creamy hot chocolate",
+            "Whipped cream",
+            "A chocolate and Dulce de Leche alfajor",
+            "The cup brim covered in Dulce de Leche"
+          ],
+          "cost": "R$22.00"
+        },
+        {
+          "title": "Choco Peanut",
+          "ingredients": [
+            "180mL of creamy hot chocolate",
+            "Finely ground peanuts",
+            "The cup brim covered in Dulce de Leche"
+          ],
+          "cost": "R$19.00"
+        }
+      ]
+    },
+    {
+      "milkshakes": [
+        {
+          "id": "milkshake"
+        },
+        {
+          "title": "Alfajor Milkshake",
+          "ingredients": [
+            "Milk",
+            "Vanilla ice cream",
+            "Dulce de Leche",
+            "Whipped cream",
+            "Half a chocolate and Dulce de Leche alfajor"
+          ],
+          "cost": "R$23.00"
+        },
+        {
+          "title": "Ovaltine Milkshake",
+          "ingredients": [
+            "Milk",
+            "Vanilla ice cream",
+            "50% cocoa",
+            "Ovaltine",
+            "Whipped cream"
+          ],
+          "cost": "R$19.00"
+        },
+        {
+          "title": "Frozen Chocolate",
+          "ingredients": [
+            "Milk",
+            "Special chocolate mix blended with ice"
+          ],
+          "cost": "R$19.00"
+        },
+        {
+          "title": "Dark Strawberry Milkshake",
+          "ingredients": [
+            "Milk",
+            "Vanilla ice cream",
+            "Strawberry",
+            "Strawberry jam",
+            "Cocoa powder",
+            "Whipped cream"
+          ],
+          "cost": "R$19.00"
+        }
+      ]
+    }
+  ]
+}

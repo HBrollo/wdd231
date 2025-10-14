@@ -1,0 +1,189 @@
+/*PAGE BACKGROUND*/
+body
+{
+    background-color: #212121;
+}
+/*HEADER*/
+header
+{
+    display: flex;
+    background-color: rgb(104, 52, 15);
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.title
+{
+    display: flex;
+    align-items: center;
+}
+.title img
+{
+    height: 50px;
+}
+.title h1
+{
+    margin-left: 0.5em;
+}
+
+
+/*HAMBURGER BUTTON*/
+nav {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;         
+    margin: 0 auto;      
+}
+#menu::before
+{
+    content: "≡";
+}
+
+#menu.show::before
+{
+    content: "X";
+}
+#menu
+{
+    font-size: xxx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* WHEN MENU IS SHOWN */
+nav.show {
+    display: flex;                /* show nav */
+    justify-content: center;      /* center vertically */
+    align-items: center;          /* center horizontally */
+    order: 2;                     /* move below title/menu */
+    background-color: #CFAF7B;        
+    flex-direction: column;
+    width: 100%;
+}
+
+nav.show a {
+    display: block;
+    font-size: xx-large;
+    color: black;
+    padding: 10px;
+
+}
+
+
+/*MAIN*/
+.hero
+{
+    display: flex;
+    justify-content: center;
+    background-color: #200B02;
+    border-radius: 8px;
+}
+.hero img
+{
+    border-radius: 12px;
+}
+#intro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+.wave
+{
+    background-color: rgb(161, 82, 25);
+    height: 100px;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+}
+
+.form
+{
+    background-color: rgb(161, 82, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+.form h2
+{
+    max-width: 10em;
+    max-height: 20em;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-size: x-large;
+    color: white;
+}
+
+input, select
+{
+    width: 20em;
+    height: 2.5em;
+    border-radius: 6px;
+}
+textarea
+{
+    height: 7.5em;
+    width: 20em;
+    border-radius: 8px;
+}
+input:required
+{
+    border-bottom: red solid 6px;
+}
+input:required:valid
+{
+    border-bottom: #1bc51b solid 6px;
+}
+/*Modal*/
+dialog:open
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+}
+dialog a
+{
+    font-size: xx-large;
+    color: black;
+    background-color: lightgrey;
+    padding: 15px;
+}
+dialog a:hover
+{
+    background-color: rgb(104, 52, 15);
+    color: white;
+}
+
+/*FOOTER*/
+footer
+{
+    background-color: rgb(104, 52, 15);
+    color: white;
+    margin-bottom: -0.5em;
+    padding: 3px;
+    margin-top: 1em;
+}
+footer p
+{
+    display: flex;
+    justify-content: center;
+    
+}

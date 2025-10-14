@@ -1,0 +1,124 @@
+{
+  "product": [
+    {
+      "alfajor": 
+      [
+            {
+              "id": "alfajor"
+            },
+            {
+              "title": "Chocolate Alfajor",
+              "ingredients": [
+                "Chocolate covering",
+                "Dulce de Leche filling"
+              ],
+              "cost": "R$7.00"
+            },
+            {
+              "title": "White Chocolate Alfajor",
+              "ingredients": [
+                "White chocolate covering",
+                "Dulce de Leche filling"
+              ],
+              "cost": "R$7.00"
+            },
+            {
+              "title": "Meringue Alfajor",
+              "ingredients": [
+                "Meringue covering",
+                "Dulce de Leche filling"
+              ],
+              "cost": "R$7.00"
+            },
+            {
+              "title": "Peanut Brittle Alfajor",
+              "ingredients": [
+                "Chocolate covering",
+                "Dulce de Leche and peanut brittle filling"
+              ],
+              "cost": "R$7.00"
+            },
+            {
+              "title": "Coconut Alfajor",
+              "ingredients": [
+                "Chocolate covering",
+                "Dulce de Leche filling",
+                "Coconut flavored crust"
+              ],
+              "cost": "R$7.00"
+            },
+            {
+              "title": "Pistachio Alfajor",
+              "ingredients": [
+                "White chocolate covering",
+                "Pistachio cream filling"
+              ],
+              "cost": "R$8.50"
+            }
+       ]
+    },
+    {
+      "bocadito": 
+      [
+        {
+          "id": "bocadito"
+        },
+        {
+          "title": "Chocolate Bocadito",
+          "ingredients": [
+            "Chocolate covering",
+            "Dulce de Leche filling"
+          ],
+          "cost": "R$6.00"
+        },
+        {
+          "title": "White Chocolate Bocadito",
+          "ingredients": [
+            "White Chocolate covering",
+            "Dulce de Leche filling"
+          ],
+          "cost": "R$6.00"
+        }
+      ]
+    },
+    {
+      "chocolleta": [
+        {
+          "id": "chocolleta"
+        },
+        {
+          "title": "Mint Chocolleta",
+          "ingredients": [
+            "Chocolate covering",
+            "Mint flavor"
+          ],
+          "cost": "R$18.00ed cracker"
+        },
+        {
+          "title": "Coconut Chocolleta",
+          "ingredients": [
+            "Chocolate covering",
+            "Coconut flavored cracker"
+          ],
+          "cost": "R$18.00"
+        },
+        {
+          "title": "Guava Chocolleta",
+          "ingredients": [
+            "White chocolate covering",
+            "Guava flavored cracker"
+          ],
+          "cost": "R$18.00"
+        },
+        {
+          "title": "Orange Chocolleta",
+          "ingredients": [
+            "Chocolate covering",
+            "Orange flavored cracker"
+          ],
+          "cost": "R$18.00"
+        }
+      ]
+    }
+  ]
+}

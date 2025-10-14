@@ -1,0 +1,83 @@
+@media screen and (min-width: 750px) 
+{
+    /*HEADER*/
+    
+    #menu
+    {
+        display: none;
+    }
+    
+    nav a
+    {
+        display: block;
+        margin: 1em;
+        padding: 15px;
+        font-size: larger;
+    }
+    nav 
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        margin: 0px;
+    }
+    nav a:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    nav a:any-link
+    {
+        color: white;
+    }
+    nav a:hover:any-link
+    {
+        color: black;
+    }
+    /*MAIN*/
+    .welcome
+    {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .food
+    {
+        display: grid;
+        grid-template-areas: 
+        "a b"
+        "a c";
+        gap: 1em;
+    }
+    .food aside
+    {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column: 1;
+    }
+    .items
+    {
+        display: grid;
+        grid-template-areas: 
+        "a b"
+        "c b";
+        gap: 1em;
+    }
+    .items aside
+    {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column: 2;
+    }
+    .button:hover
+    {
+        background-color: rgb(104, 52, 15);
+        color: white;
+    }
+    .join a:hover
+    {
+        background-color: rgb(104, 52, 15);
+        color: white;
+    }
+}
