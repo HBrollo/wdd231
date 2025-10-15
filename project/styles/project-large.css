@@ -1,0 +1,23 @@
+@media screen and (min-width: 750px) 
+{
+    #menu
+    {
+        display: none;
+    }
+    nav a
+    {
+        display: block;
+        margin: 10px;
+    }
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    header
+    {
+        background-color: hotpink;
+    }
+}
