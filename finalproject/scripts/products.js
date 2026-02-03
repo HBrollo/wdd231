@@ -44,9 +44,10 @@ function createCards(cards) {
             productName.textContent = product.title
             section.appendChild(productName);
             CreateModals(productName,itemId, product.ingredients);
+            
 
         })
-
+    observer.observe(document.querySelector(`.${itemId}`))
   });
 }
 
@@ -86,6 +87,22 @@ function CreateModals(productName, category, array)
             modal.showModal();
         })
 }
+//Play animations
+const observer = new IntersectionObserver (entries =>
+  {
+    entries.forEach(entry =>
+      {
+        if (entry.isIntersecting) 
+          {
+            entry.target.classList.add('animate');
+          }
+      })
+    },
+    {threshold: 0.1}
+  );
+  
+
+
 //Footer Content
 const currentYear = new Date().getFullYear();
 document.getElementById('currentyear').textContent = currentYear;

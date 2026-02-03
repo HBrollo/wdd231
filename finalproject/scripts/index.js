@@ -34,6 +34,21 @@ if (!lastVisit) {
 // Store the current visit time for the next visit
 localStorage.setItem("lastVisit", now);
 
+//Play animations
+const observer = new IntersectionObserver (entries =>
+  {
+    entries.forEach(entry =>
+      {
+        if (entry.isIntersecting) 
+          {
+            entry.target.classList.add('animate');
+          }
+      })
+    },
+    {threshold: 0.1}
+  );
+  observer.observe(document.querySelector('.items'))
+  observer.observe(document.querySelector('.food'))
 
 //Footer Content
 const currentYear = new Date().getFullYear();

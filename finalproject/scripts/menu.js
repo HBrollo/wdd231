@@ -46,7 +46,7 @@ function createCards(cards) {
             CreateModals(dishName,itemId, dish.ingredients);
 
         })
-
+    observer.observe(document.querySelector(`.${itemId}`))
   });
 }
 
@@ -86,6 +86,20 @@ function CreateModals(dishName, category, array)
             modal.showModal();
         })
 }
+//Play animation
+const observer = new IntersectionObserver (entries =>
+  {
+    entries.forEach(entry =>
+      {
+        if (entry.isIntersecting) 
+          {
+            entry.target.classList.add('animate');
+          }
+      })
+    },
+    {threshold: 0.1}
+  );
+
 //Footer Content
 const currentYear = new Date().getFullYear();
 document.getElementById('currentyear').textContent = currentYear;

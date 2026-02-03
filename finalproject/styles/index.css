@@ -85,6 +85,7 @@ nav.show a {
 .hero img
 {
     border-radius: 12px;
+    min-height: 600px;
 }
 .welcome
 {
@@ -110,6 +111,7 @@ nav.show a {
 {
     margin-left: 1%;
     margin-right: 1%;
+    text-align: center;
 }
 /*WAVES*/
 .wave0

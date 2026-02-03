@@ -149,13 +149,14 @@ nav.show a {
 .bocadito
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
     padding-bottom: 10em;
     background-color: rgb(161, 82, 25);
+    max-width: 100%;
 }
 
 .bocadito h2, .chocolleta h2

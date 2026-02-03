@@ -80,4 +80,36 @@
         background-color: rgb(104, 52, 15);
         color: white;
     }
+    /*SLIDE IN ANIMATION*/
+    @keyframes slide 
+    {
+        from 
+        {
+            translate: 10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    @keyframes reverse-slide
+    {
+        from 
+        {
+            translate: -10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    .items.animate img, .items.animate h2, .items.animate a
+    {
+        animation: slide 1.5s forwards;
+    }
+    .food.animate img, .food.animate h2, .food.animate a
+    {
+        animation: reverse-slide 1.5s forwards;
+    }
+    
 }

@@ -60,4 +60,35 @@
         background-color: #68340F;
         color: white;
     }
+    /*SLIDE IN ANIMATION*/
+    @keyframes slide 
+    {
+        from 
+        {
+            translate: 10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    @keyframes reverse-slide
+    {
+        from 
+        {
+            translate: -10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    .chocolate.animate aside, .chocolate.animate img, .milkshake.animate img, .milkshake.animate aside
+    {
+        animation: slide 1.5s;
+    }
+    .medialuna.animate img, .medialuna.animate aside
+    {
+        animation: reverse-slide 1.5s;
+    }
 }

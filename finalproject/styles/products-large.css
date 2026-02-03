@@ -43,6 +43,14 @@
         flex-direction: row;
         justify-content: space-around;
     }
+    .bocadito img
+    {
+        margin-right: 15%;
+    }
+    .bocadito aside
+    {
+        margin-left: 15%;
+    }
     .alfajor aside, .bocadito aside, .chocolleta aside
     {
         display: flex;
@@ -60,5 +68,36 @@
     {
         background-color: rgb(104, 52, 15);
         color: white;
+    }
+    /*SLIDE IN ANIMATION*/
+    @keyframes slide 
+    {
+        from 
+        {
+            translate: 10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    @keyframes reverse-slide
+    {
+        from 
+        {
+            translate: -10vw 0;
+        } 
+        to
+        {
+            translate:0 0;
+        }
+    }
+    .alfajor.animate img, .alfajor.animate aside, .chocolleta.animate img, .chocolleta.animate aside
+    {
+        animation: slide 1.5s;
+    }
+    .bocadito.animate img, .bocadito.animate aside
+    {
+        animation: reverse-slide 1.5s;
     }
 }
